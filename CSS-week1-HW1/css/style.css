@@ -1,4 +1,4 @@
-/* 1. Kiểu cho thẻ nội dung (giả sử thẻ nội dung là <main>) */
+
 main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px; /* kích thước phông chữ dễ đọc */
@@ -7,10 +7,9 @@ main {
     padding: 20px;
     background-color: #fefefe;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* 2. Kiểu cho thẻ tiêu đề (giả sử thẻ tiêu đề là <section> hoặc <header> - nhưng không có thẻ riêng, ta chọn h2) */
+
 section, header {
     background-color: #3498db;
     color: white;
@@ -20,10 +19,8 @@ section, header {
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.5);
 }
 
-/* Nếu bạn muốn chỉ định cho tiêu đề, dùng h2 */
 h2 {
     background-color: #3498db;
     color: white;
@@ -33,12 +30,11 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.5);
 }
 
-/* 3. Kiểu cho thẻ nav */
+
 nav {
     background-color: #34495e;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0
+}
